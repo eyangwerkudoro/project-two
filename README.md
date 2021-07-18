@@ -114,6 +114,9 @@ Building with **TypeScript** language and using <a  href="http://nodejs.org"  ta
 **Unit Test**
 Unit test is part of testing all functions in program with expected result as a response. In this app, unit test creating for all controller and services.
   
+## Screenshot folder
+
+This folder provide the screenshots of output when app running by Postman, all collections also include on this folder so you can import it in Postman to see the output.
 
 ## Support
 
