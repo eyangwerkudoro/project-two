@@ -1,0 +1,104 @@
+{
+	"info": {
+		"_postman_id": "0c55bea7-27f0-4772-9477-7d54b1ff648e",
+		"name": "parking lot",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "create slot",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/parking/create/3",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"parking",
+						"create",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "parking",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    \"A\",\"B\",\"C\",\"D\"\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/parking/add",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"parking",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "leave",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    \"A\",\"C\"\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/parking/leave",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"parking",
+						"leave"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/parking/status",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"parking",
+						"status"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
